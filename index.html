@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
+  <title>POSapp by itdl - Releases List</title>
+  <script type="text/javascript">
+  /**
+   * Global settings to overide default values
+   */
+  window.SETTINGS = {
+    appOldName: 'ChayBan',
+    appName: 'POSapp', // default: app, required for generate binary installation path
+    binDir: 'bin', // default: packages, required for generate binary installation path
+    // appData: 'app.packages.json', // default: app.packages.json, required for read data and render
+    // getReleaseTitle: function(item) {
+    //   return 'Sprint #' + item.sprint;
+    // },
+    getBinPath: function(os, item) {
+      var subDir = this.binDir + '/' + (item['buildNumber'] ? item.buildNumber + '/' : '');
+      if (os === 'ios') {
+        return subDir + '/app.plist';
+      }
+      return subDir + (item.id === 1 ? this.appOldName : this.appName) + '.apk';
+    }
+  } /* */
+  </script>
+  <style type="text/css">
+    body {
+      background-color: #FFFFFF;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .ui.menu .item img.logo {
+      margin-right: 1.5em;
+    }
+    .main.container {
+      margin-top: 6em;
+      flex: 1;
+    }
+    .ui.header {
+      margin-bottom: 1em;
+    }
+    .wireframe {
+      margin-top: 2em;
+    }
+    .ui.footer.segment {
+      margin: 5em 0em 0em;
+      padding: 5em 0em;
+    }
+    .ui.footer .copyright a {
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui fixed inverted menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        POSapp by itdl
+      </a>
+      <a href="#" class="item">Release Packages</a>
+    </div>
+  </div>
+
+  <div class="ui main text container">
+    <h1 class="ui header">POSapp by itdl</h1>
+    <!-- <p>This is a basic fixed menu template using fixed size containers.</p> -->
+    <div id="app"></div>
+  </div>
+
+  <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="https://ngoclb.com/contact">Contact Us</a>
+        <a class="item" href="https://ngoclb.com/contact">Terms and Conditions</a>
+        <a class="item" href="https://ngoclb.com/contact">Privacy Policy</a>
+      </div>
+      <p class="copyright">Made with <a href="https://vuejs.org/">Vue.js</a> and <a href="https://semantic-ui.com/">Semantic UI</a> at <a href="https://ngoclb.com">somewhere in Saigon</a>.</p>
+    </div>
+  </div>
+  <script src="dist/build.js"></script>
+</body>
+
+</html>

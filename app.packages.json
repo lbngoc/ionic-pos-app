@@ -1,0 +1,46 @@
+[
+  {
+    "id": 4,
+    "version": "1.1.0",
+    "buildNumber": "004",
+    "date": "Feb 15, 2020",
+    "android": true,
+    "ios": false,
+    "description": [
+      "- Add Instructions screen",
+    ]
+  },  {
+    "id": 3,
+    "version": "1.0.3",
+    "buildNumber": "003",
+    "date": "Jan 21, 2020",
+    "android": true,
+    "ios": false,
+    "description": [
+      "- Update new bluetooth library",
+      "- Change app layout to tab view"
+    ]
+  },
+  {
+    "id": 2,
+    "version": "0.2.0",
+    "buildNumber": "002",
+    "date": "Jan 03, 2020",
+    "android": true,
+    "ios": false,
+    "description": [
+      "- Mange Menu Items",
+      "- Manage Order",
+      "- Settings and Printing"
+    ]
+  },
+  {
+    "id": 1,
+    "version": "0.0.1",
+    "buildNumber": "001",
+    "date": "Dec 27, 2019",
+    "android": true,
+    "ios": true,
+    "description": "First Demo"
+  }
+]
