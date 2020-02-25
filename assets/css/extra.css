@@ -1,8 +1,10 @@
+.wrapper section img,
 .rst-content img {
   max-width: 30%;
 }
 
 @media screen and (max-width: 567px) {
+  .wrapper section img,
   .rst-content img {
     max-width: 80%;
   }
