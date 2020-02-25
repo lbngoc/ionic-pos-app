@@ -1,0 +1,7 @@
+title: Ionic POS app
+description: Hybrid mobile POS app, based on Ionic 4, Angular 8
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-leap-day
+github:
+  zip_url: assets/POSapp.apk
