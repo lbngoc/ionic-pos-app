@@ -5,3 +5,4 @@ google_analytics:
 theme: jekyll-theme-leap-day
 github:
   zip_url: assets/POSapp.apk
+  tar_url: assets/POSapp.apk
