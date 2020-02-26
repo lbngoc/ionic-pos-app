@@ -4,5 +4,7 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
 github:
-  zip_url: assets/POSapp.apk
-  tar_url: assets/POSapp.apk
+  apk_url: assets/POSapp.apk
+  src_url: https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625
+  owner_name: Ngoc L.B
+  owner_url: https://ngoclb.com
