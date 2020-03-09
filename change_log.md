@@ -1,6 +1,7 @@
 ---
-title: CHANGE LOG | Ionic POS app
-url: /change-log
+page:
+  title: CHANGE LOG
+  url: /change-log
 ---
 
 Hybrid mobile POS app, based on Ionic 4, Angular 8
