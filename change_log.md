@@ -11,6 +11,14 @@ Hybrid mobile POS app, based on Ionic 4, Angular 8
 
 ## Change Log
 
+### 1.3.0
+
+- Add "Sign In" option in Settings page
+- Add Region setting (Currency & Number) page
+- Change new UI for Settings page
+- Change new UI for "No result found"
+- Fix some bugs
+
 ### 1.2.2
 
 - Fix bug set app language at first time installed

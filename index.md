@@ -4,7 +4,7 @@ Hybrid mobile POS app, based on Ionic 4, Angular 8
 
 ## Demo
 
-- [**Android**](assets/POSapp.apk)
+- [**Android**](assets/Ionic-PoS-App.apk)
 - [**Tutorial Video**](https://www.youtube.com/watch?v=mTEK_snO4T8)
 
 ## Features
