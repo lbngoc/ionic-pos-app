@@ -1,6 +1,6 @@
 Hybrid mobile POS app, based on Ionic 4, Angular 8
 
-![](assets/img/slide-1.png) ![](assets/img/slide-2.png) ![](assets/img/slide-3.png)
+![](assets/img/screen-order.gif) ![](assets/img/screen-food.gif) ![](assets/img/screen-report.png) ![](assets/img/screen-setting.gif)
 
 ## Demo
 
@@ -9,11 +9,11 @@ Hybrid mobile POS app, based on Ionic 4, Angular 8
 
 ## Features
 
-- Manage orders
+- Manage orders **(Listview & Grid View)**
 - Manage menu items
-- Customize and printing receipt by Bluetooth (BLE). Support all ESCPOS printers.
-- Revenue statistics and reports (comming soon)
-- Synchronize data with online account (comming soon)
+- Customize and printing receipt by Bluetooth (BLE). **Support all ESCPOS printers.**
+- Revenue statistics and reports **(Completed: since v1.3.1)**
+- Synchronize data with online account _(comming soon)_
 
 ## Requirements
 

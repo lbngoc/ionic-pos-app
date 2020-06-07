@@ -5,11 +5,18 @@ permalink: /change-log
 
 Hybrid mobile POS app, based on Ionic 4, Angular 8
 
-![](assets/img/slide-1.png) ![](assets/img/slide-2.png) ![](assets/img/slide-3.png)
+![](assets/img/screen-order.gif) ![](assets/img/screen-food.gif) ![](assets/img/screen-report.png) ![](assets/img/screen-setting.gif)
 
 ===
 
 ## Change Log
+
+### 1.3.1
+
+- Add "Report" screen
+- Support change Order color
+- Change UI of search element
+- Fix some bugs
 
 ### 1.3.0
 
