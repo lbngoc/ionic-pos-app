@@ -1,11 +1,11 @@
 ---
-title: CHANGE LOG
+title: Change Log
 permalink: /change-log
 ---
 
 Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 
-![](assets/img/screen-order.gif) ![](assets/img/screen-food.gif) ![](assets/img/screen-report.png) ![](assets/img/screen-setting.gif)
+![](assets/img/app-banner.png)
 
 ===
 
@@ -13,7 +13,7 @@ Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 
 ### 1.4.1
 
-- Synchronize data between devices by account
+- Synchronize data with Firebase
 - Fix some bugs
 
 ### 1.4.0

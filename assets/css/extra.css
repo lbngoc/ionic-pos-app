@@ -1,3 +1,11 @@
+.wrapper nav li a {
+  font-weight: 600;
+}
+
+.wrapper nav li.tag-h3 {
+  font-size: 85%;
+}
+
 .wrapper section img,
 .rst-content img {
   max-width: 99%;
