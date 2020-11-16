@@ -1,11 +1,34 @@
 .wrapper section img,
 .rst-content img {
-  max-width: 24%;
+  max-width: 99%;
+}
+
+.wrapper section img[src*="screen-"],
+.rst-content img[src*="screen-"] {
+  max-width: 22%;
+}
+
+@media screen and (min-width: 568px) {
+  .wrapper section img + img,
+  .rst-content img + img {
+    margin-left: 3%;
+  }
 }
 
 @media screen and (max-width: 567px) {
   .wrapper section img,
   .rst-content img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .wrapper section img[src*="screen-"],
+  .rst-content img[src*="screen-"] {
     max-width: 80%;
+  }
+
+  .wrapper section img + img,
+  .rst-content img + img {
+    margin-top: 3%;
   }
 }

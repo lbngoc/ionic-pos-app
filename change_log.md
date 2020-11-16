@@ -3,13 +3,22 @@ title: CHANGE LOG
 permalink: /change-log
 ---
 
-Hybrid mobile POS app, based on Ionic 4, Angular 8
+Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 
 ![](assets/img/screen-order.gif) ![](assets/img/screen-food.gif) ![](assets/img/screen-report.png) ![](assets/img/screen-setting.gif)
 
 ===
 
 ## Change Log
+
+### 1.4.1
+
+- Synchronize data between devices by account
+- Fix some bugs
+
+### 1.4.0
+
+- Integrate Firebase authentication (Register/Log In/Reset Password)
 
 ### 1.3.1
 
