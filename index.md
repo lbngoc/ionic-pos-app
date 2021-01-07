@@ -44,7 +44,7 @@ Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 ```
 export const environment = {
   production: false,
-  firebase: {
+  firebaseConfig: {
     apiKey: '<your-key>',
     authDomain: '<your-project-authdomain>',
     databaseURL: '<your-database-URL>',
