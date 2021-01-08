@@ -28,8 +28,8 @@ Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 - Cordova
 - Ionic
 - Angular CLI
-- Android Studio
-- Xcode (to build iOS)
+- Android Studio ([Developing for Android](https://ionicframework.com/docs/developing/android))
+- Xcode ([Developing for iOS](https://ionicframework.com/docs/developing/ios))
 
 ## Setup Firebase Account
 
@@ -57,6 +57,50 @@ export const environment = {
 };
 ```
 
+## Add new language
+
+The project use [**ngx-translate**](https://github.com/ngx-translate/core) library for translation.
+See an example at here [https://stackblitz.com/github/ngx-translate/example](https://stackblitz.com/github/ngx-translate/example)
+
+- Open `src/app/app.config.js` and add your new app language (ex. French ) to array **SUPPORTED_LANGUAGES**
+
+```
+export const SUPPORTED_LANGUAGES: SupportedLanguage[] = [
+  ...
+  {
+    lang: 'fr',
+    locale: 'fr-FR',
+    name: __('French'),
+    currency: {
+      symbol: "€",
+      name: "Euro",
+      symbol_native: "€",
+      decimal_digits: 2,
+      rounding: 0,
+      code: "EUR",
+      name_plural: "Euro",
+      formatter: {
+        is_symbol_prefix: false,
+        delimiters: ' |,',
+        space_between: true
+      } as any
+  }
+];
+```
+
+- Open `packages.json`, add new translation file inside {...}
+
+```
+  ...
+  "scripts": {
+    ...
+    "extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/{en,vi,fr}.json --clean --format json"
+  },
+  ...
+```
+
+You can now run `npm run extract` and it will extract strings from your project.
+
 ## Build and Run
 
 Open Terminal and go to project root path
@@ -75,9 +119,18 @@ $ ionic serve
 
 ### Run on Android device
 
+Plug in your Android phone into your PC
+
+#### Run by Ionic CLI
+
 ```
 $ ionic codrova run android
 ```
+
+#### Run by Android Studio
+
+- Open Android Studio. Open project located at `platforms/android` directory.
+- Select _Run > Run 'app'_
 
 ### Run on iOS
 

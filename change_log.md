@@ -11,6 +11,10 @@ Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
 
 ## Change Log
 
+### 1.4.2
+
+- Fix some minor bugs
+
 ### 1.4.1
 
 - Synchronize data with Firebase
