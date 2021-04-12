@@ -1,6 +1,6 @@
 ---
 title: Change Log
-permalink: /change-log
+permalink: change-log
 ---
 
 Hybrid Mobile POS Application, based on Ionic 4 & Angular 8
